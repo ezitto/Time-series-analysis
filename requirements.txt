@@ -1,3 +1,8 @@
 streamlit
 joblib
 numpy
+matplotlib.pyplot
+pywt
+scipy.signal
+scipy.fftpack
+mpld3
