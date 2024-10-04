@@ -1,6 +1,4 @@
-¡Qué bien que ya lo hayas hecho! Aquí tienes un ejemplo de un archivo `README.md` que puedes usar en tu repositorio para explicar tu aplicación de Streamlit:
 
----
 
 # Análisis de Series Temporales con Streamlit
 
