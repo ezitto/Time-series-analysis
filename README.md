@@ -51,7 +51,7 @@ Para ejecutar esta aplicación localmente, debes tener instalado Python 3.7 o su
 
 Esta aplicación está desplegada en [Streamlit Cloud](https://streamlit.io/cloud). Puedes acceder a ella directamente a través del siguiente enlace:
 
-[**Enlace a la Aplicación**](https://time-series-analysis-rgtthkifns5vfzxp8feg6p.streamlit.app/)
+[**Enlace a la Aplicación**](https://time-series-analysis-uerttn47yneet35phew6ku.streamlit.app/)
 
 ## Contribuciones
 
