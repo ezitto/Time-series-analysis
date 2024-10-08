@@ -23,9 +23,9 @@ st.title("Análisis de Series Temporales")
 funcion_usuario = st.text_input("Escribe una serie temporal (usa 'np' para funciones de NumPy y 't' como variable):", "np.sin(t)")
 
 # Parámetros para la gráfica
-min_t = st.number_input("Valor mínimo de t", value=-10)
+min_t = st.number_input("Valor mínimo de t", value=-5)
 max_t= st.number_input("Valor máximo de t", value=10)
-step=st.number_input("tiempo muestreo", value=0.001, format="%.6f")
+step=st.number_input("tiempo muestreo", value=0.01, format="%.6f")
 
  # Genera un array de valores x
 t = np.arange(min_t, max_t, step)
