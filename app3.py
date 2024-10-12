@@ -101,7 +101,7 @@ if graficar:
 
 # Menú de opciones
 opcion = st.selectbox("Selecciona una operación para realizar:", 
-                      ("Transformada de Fourier", "Short-Time Fourier Transform (STFT)", "Transformada Wavelet Continua (CWT)", "Calcular derivada", "Calcular integral", "Graficar"))
+                      ("Transformada de Fourier", "Short-Time Fourier Transform (STFT)", "Transformada Wavelet Continua (CWT)", "Calcular derivada", "Calcular integral"))
 
 # Botón para ejecutar la operación
 if st.button("Ejecutar análisis"):
@@ -224,15 +224,6 @@ if st.button("Ejecutar análisis"):
                                 ax.set_xlabel("t")
                                 ax.set_ylabel("Integral de f(t)")
                                 st.pyplot(fig)
-                            
-        elif  opcion == "Graficar":
-                                    # Graficar la función
-                                    fig, ax = plt.subplots()
-                                    ax.plot(t, y)
-                                    ax.set_title(f"Gráfica de {funcion_usuario}")
-                                    ax.set_xlabel("t")
-                                    ax.set_ylabel("f(t)")
-                                    st.pyplot(fig)
                             
         
         else:
